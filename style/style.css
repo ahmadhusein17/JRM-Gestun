@@ -1,0 +1,140 @@
+.container {
+  padding : 5rem 2rem;
+}
+
+.garis {
+  width: 50%;
+  margin: auto;
+  border: 2px solid #198754;
+}
+
+.garis2 {
+  width: 30%;
+  border: 2px solid white;
+}
+
+.pertama {
+  background-color: #198754;
+}
+
+.layanan .bi {
+  font-size: 3rem;
+  color: #198754;
+}
+
+.hubungi .bi {
+  font-size: 3rem;
+  color: #198754;
+}
+
+.contact-card {
+  transition: transform 0.3s;
+}
+
+.contact-card:hover {
+  transform: translateY(-10px);
+}
+
+.contact-icon {
+  font-size: 2rem;
+  color: #3498db;
+}
+
+.contact-card-title {
+  font-size: 1.25rem;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.contact-card-text {
+ color: #6c757d;
+}
+
+.location-map {
+  height: 20rem;
+}
+
+.footer {
+  background-color: #343a40;
+  color: #ffffff;
+  padding: 40px 0;
+}
+
+.footer a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: #3498db;
+}
+
+.footer .social-icons i {
+  font-size: 1.5rem;
+  margin-right: 15px;
+}
+
+.footer .social-icons i:hover {
+  color: #3498db;
+}
+
+.footer h5 {
+  margin-bottom: 20px;
+}
+
+.footer .list-unstyled li {
+  margin-bottom: 10px;
+}
+
+.footer .copy {
+  border-top: 1px solid #4e555b;
+  padding-top: 15px;
+  margin-top: 15px;
+}
+
+.whatsapp-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 60px;
+  height: 60px;
+  background-color: #25D366;
+  color: #fff;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 24px;
+  line-height: 60px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  z-index: 1000;
+}
+
+.whatsapp-button:hover {
+  background-color: #128C7E;
+}
+
+.whatsapp-icon {
+  font-size: 32px;
+}
+
+/* Optional: Add animation */
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+  100% { transform: scale(1); }
+}
+
+.pulse-animation {
+  animation: pulse 2s infinite;
+}
+
+/* Media query untuk tampilan komputer */
+@media (min-width: 768px) {
+  .whatsapp-button {
+    width: 80px;
+    height: 80px;
+    font-size: 32px;
+    line-height: 80px;
+  }
+}
